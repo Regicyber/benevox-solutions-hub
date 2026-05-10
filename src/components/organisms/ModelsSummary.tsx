@@ -7,26 +7,29 @@ const models = [
     name: "Fixed-Firm",
     subtitle: "Predictable",
     icon: Target,
-    description: "Best for projects with absolute requirements and high predictability needs. Ideal for legacy migrations and MVP builds with locked requirements.",
+    description:
+      "Best for projects with absolute requirements and high predictability needs. Ideal for legacy migrations and MVP builds with locked requirements.",
     color: "text-brand-green",
-    bgColor: "bg-brand-green/10"
+    bgColor: "bg-brand-green/10",
   },
   {
     name: "Agile-Flow",
     subtitle: "Fast",
     icon: Clock,
-    description: "Our fastest model for rapid iteration and pay-as-you-go high-speed pivots. Perfect for early-stage startups and experimental features.",
+    description:
+      "Our fastest model for rapid iteration and pay-as-you-go high-speed pivots. Perfect for early-stage startups and experimental features.",
     color: "text-brand-gold",
-    bgColor: "bg-brand-gold/10"
+    bgColor: "bg-brand-gold/10",
   },
   {
     name: "Hybrid",
     subtitle: "Strategic",
     icon: CheckCircle,
-    description: "80/20 split between long-term roadmap planning and tactical sprint execution. Best for growing products needing both direction and flexibility.",
+    description:
+      "80/20 split between long-term roadmap planning and tactical sprint execution. Best for growing products needing both direction and flexibility.",
     color: "text-brand-red",
-    bgColor: "bg-brand-red/10"
-  }
+    bgColor: "bg-brand-red/10",
+  },
 ];
 
 export const ModelsSummary = () => {
@@ -42,7 +45,8 @@ export const ModelsSummary = () => {
             Engagement Models
           </h2>
           <p className="text-muted-foreground text-lg">
-            Select the model that best fits your project maturity, risk profile, and timeline requirements.
+            Select the model that best fits your project maturity, risk profile,
+            and timeline requirements.
           </p>
         </div>
 
@@ -55,8 +59,16 @@ export const ModelsSummary = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <Button size="xl" className="h-auto py-5 px-10 text-xl font-bold" asChild>
-            <a href="https://calendar.app.google/S8y9f3ErZXRSbfc99">
+          <Button
+            size="xl"
+            className="h-auto py-5 px-10 text-xl font-bold"
+            asChild
+          >
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdzmEVFuly6CHwREg4utCe2GY538E3SQ0SPUBGEHOdqwCAJ6Q/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Book a Technical Scoping
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>

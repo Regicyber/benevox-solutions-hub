@@ -1,4 +1,11 @@
-import { Mail, MapPin, Linkedin, Twitter } from "lucide-react";
+import {
+  Mail,
+  MapPin,
+  Linkedin,
+  Twitter,
+  Instagram,
+  Facebook,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 import { BenevoxLogo } from "@/components/atoms/BenevoxLogo";
 
@@ -19,15 +26,35 @@ export const Footer = () => {
             <div className="flex gap-4">
               <a
                 href="#"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://x.com/benevoxhq"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Twitter className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.instagram.com/benevoxhq?igsh=emN5cTl2aXV4OHlt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
+                <Facebook className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -108,7 +135,12 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary" />
-                contact@benevox.africa
+                <a
+                  href="mailto:info@benevox.africa"
+                  className="hover:text-foreground transition-colors"
+                >
+                  info@benevox.africa
+                </a>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="h-4 w-4 text-[hsl(var(--brand-gold))]" />
@@ -121,7 +153,8 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Benevox Technologies Limited (RC: 9240456). All rights reserved.
+            © {new Date().getFullYear()} Benevox Technologies Limited (RC:
+            9240456). All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-foreground transition-colors">
