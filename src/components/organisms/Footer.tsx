@@ -1,4 +1,4 @@
-import { Mail, MapPin, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Linkedin, Twitter, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
 import { BenevoxLogo } from "@/components/atoms/BenevoxLogo";
 
@@ -28,6 +28,14 @@ export const Footer = () => {
                 className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <Twitter className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.instagram.com/benevoxhq?igsh=emN5cTl2aXV4OHlt"
+                target="_blank"
+                rel="noreferrer"
+                className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
+                <Instagram className="h-5 w-5" />
               </a>
             </div>
           </div>
