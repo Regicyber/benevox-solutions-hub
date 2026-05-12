@@ -41,7 +41,7 @@ export const Footer = () => {
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/benevoxhq?igsh=emN5cTl2aXV4OHlt"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
